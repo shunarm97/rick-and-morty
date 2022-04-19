@@ -1,0 +1,17 @@
+
+  .search-box input {
+    color: white;
+    padding: 10px;
+    height: 50px;
+    width: 700px;
+    border: 3px solid #000;
+    border-radius: 10px;
+    background-color: #1c430547;
+    font-size: 40px;
+  }
+  .search-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+  }

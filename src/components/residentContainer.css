@@ -1,0 +1,22 @@
+.resident-container {
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    color: #fff;
+    margin: 10px;
+    background-color: #0a3902;
+  }
+  
+  .resident-container h3 {
+    text-align: center;
+    padding: 20px;
+    font-size: 40px;
+  }
+  .each-card {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 60px;
+    grid-area: span;
+    padding: 30px;
+  }
+  
